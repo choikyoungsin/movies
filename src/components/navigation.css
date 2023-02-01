@@ -1,0 +1,26 @@
+.nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 20%;
+  height: 100%;
+  background: black;
+  padding: 50px 20px;
+  box-sizing: border-box;
+}
+.nav ul {
+  list-style: none;
+}
+.nav ul li {
+  border-bottom: 1px solid red;
+  padding: 10px 0;
+}
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 20px;
+}
+.nav ul li a:hover {
+  color: blue;
+}/*# sourceMappingURL=navigation.css.map */
